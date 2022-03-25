@@ -7,4 +7,8 @@ body {
   padding: 0;
   margin: 0;
   background-color: #edf3f8;
+  background-image: url("../img/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  background-position: calc(50% + 360px) top;
 }

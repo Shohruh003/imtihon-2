@@ -1,6 +1,6 @@
 .start {
-  margin-top: 96px;
-  margin-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .start__inner {
   @include flexStayle(center, space-between);

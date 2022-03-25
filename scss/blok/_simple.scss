@@ -1,5 +1,10 @@
 .simple {
-  margin-top: 150px;
+  padding-top: 150px;
+  padding-bottom: 147px;
+  background-image: url("../../img/simple-bg.png");
+  background-repeat: no-repeat;
+  background-size: 390px 780px;
+  background-position: calc(50% + 515px) top;
 }
 .simple__inner {
   @include flexStayle(center, space-between);

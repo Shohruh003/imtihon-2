@@ -379,6 +379,10 @@ body {
   padding: 0;
   margin: 0;
   background-color: #edf3f8;
+  background-image: url("../img/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  background-position: calc(50% + 360px) top;
 }
 
 .header {
@@ -866,7 +870,12 @@ body {
 }
 
 .simple {
-  margin-top: 150px;
+  padding-top: 150px;
+  padding-bottom: 147px;
+  background-image: url("../../img/simple-bg.png");
+  background-repeat: no-repeat;
+  background-size: 390px 780px;
+  background-position: calc(50% + 515px) top;
 }
 
 .simple__inner {
@@ -908,13 +917,9 @@ body {
   width: fit-content;
 }
 
-.services {
-  margin-top: 147px;
-}
-
 .start {
-  margin-top: 96px;
-  margin-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .start__inner {
