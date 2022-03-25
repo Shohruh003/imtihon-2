@@ -1,0 +1,10 @@
+.start {
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+.start__inner {
+  @include flexStayle(center, space-between);
+}
+.start__heading {
+  @include textStyle(48px, 56px, #36536b);
+}
