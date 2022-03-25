@@ -507,6 +507,77 @@ body {
   margin-bottom: 50px;
 }
 
+.servicesList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.servicesList__item {
+  max-width: 350px;
+}
+
+.servicesList__personal::before {
+  display: block;
+  background-image: url("../../img/personal.png");
+  width: 106px;
+  height: 106px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.servicesList__banking::before {
+  display: block;
+  background-image: url("../../img/banking.png");
+  width: 106px;
+  height: 106px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.servicesList__consumer::before {
+  display: block;
+  background-image: url("../../img/consumer.png");
+  width: 106px;
+  height: 106px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.servicesList__heading {
+  font-size: 18px;
+  line-height: 25px;
+  color: #36536b;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.servicesList__text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #6C8294;
+  margin: 0;
+}
+
 .hero {
   margin-top: 75px;
 }
@@ -750,4 +821,8 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.services {
+  margin-top: 147px;
 }

@@ -26,3 +26,54 @@
 .logoList__item {
   margin-bottom: 50px;
 }
+
+.servicesList {
+  @include flexStayle(center, space-between);
+  @include listStyle(0px, 0px, none);
+  text-align: center;
+}
+.servicesList__item {
+  max-width: 350px;
+}
+.servicesList__personal::before {
+  display: block;
+  background-image: url("../../img/personal.png");
+  width: 106px;
+  height: 106px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  background-repeat: no-repeat;
+  content: "";
+}
+.servicesList__banking::before {
+  display: block;
+  background-image: url("../../img/banking.png");
+  width: 106px;
+  height: 106px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  background-repeat: no-repeat;
+  content: "";
+}
+.servicesList__consumer::before {
+  display: block;
+  background-image: url("../../img/consumer.png");
+  width: 106px;
+  height: 106px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+  background-repeat: no-repeat;
+  content: "";
+}
+.servicesList__heading {
+  @include textStyle(18px, 25px, #36536b);
+  margin: 0;
+  margin-bottom: 16px;
+}
+.servicesList__text {
+  @include textStyle(15px, 25px, #6C8294);
+  margin: 0;
+}
