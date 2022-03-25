@@ -708,3 +708,46 @@ body {
   line-height: 28px;
   color: #6C8294;
 }
+
+.simple {
+  margin-top: 150px;
+}
+
+.simple__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.simple__content {
+  max-width: 445px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+.simple__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 56px;
+  color: #36536b;
+}
+
+.simple__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 28px;
+  color: #36536b;
+}
+
+.simple__img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
