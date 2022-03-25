@@ -1,0 +1,45 @@
+.about {
+  margin-top: 75px;
+  background-image: url("../../img/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.about__inner {
+  @include flexStayle(center, space-between);
+}
+.about__content {
+  max-width: 445px;
+}
+.about__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 24px;
+  @include textStyle(48px, 56px, #fbfcfe);
+}
+.about__text {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 32px;
+  @include textStyle(15px, 28px, rgba(251, 252, 254,0.7));
+}
+.about__link {
+  padding-top: 15px;
+  padding-right: 32px;
+  padding-bottom: 15px;
+  padding-left: 32px; 
+  @include linkStyle(none, 15px, 18px, #fbfcfe);
+  border: 1px solid #fbfcfe;
+  box-sizing: border-box;
+  border-radius: 24px;
+}
+.about__link:hover {
+  color: #1b262f;
+  background-color: #cccece;
+}
+.about__link:active {
+  background-color: #ffffff;
+}

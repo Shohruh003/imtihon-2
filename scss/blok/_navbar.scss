@@ -17,3 +17,12 @@
   color:  #36536b;
   border: none;
 }
+.logoList {
+  max-width: 536px;
+  @include flexStayle(center, space-between);
+  @include listStyle(0px, 0px,none);
+  flex-wrap: wrap;
+}
+.logoList__item {
+  margin-bottom: 50px;
+}
