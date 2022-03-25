@@ -422,6 +422,7 @@ body {
   background: #ba4270;
   border-radius: 24px;
   border: none;
+  cursor: pointer;
 }
 
 .header__btn:hover {
