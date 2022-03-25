@@ -1,0 +1,27 @@
+.implement {
+  margin-top: 150px;
+}
+.implement__inner {
+  @include flexStayle(center, start);
+}
+.implement__img {
+  max-width: 800px;
+  height: 400px;
+}
+.implement__content {
+  max-width: 430px;
+  margin-left: 50px;
+}
+.implement__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 24px;
+  @include textStyle(48px, 56px, #36536b);
+}
+.implement__text {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  @include textStyle(15px, 28px, #6C8294);
+}
