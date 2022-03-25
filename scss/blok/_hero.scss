@@ -1,0 +1,51 @@
+.hero {
+  margin-top: 75px;
+}
+.hero__inner {
+  @include flexStayle(center, space-between);
+}
+.hero__content {
+  max-width: 546px;
+}
+.hero__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  @include textStyle(72px, 72px, #36536b);
+  margin: 0;
+  margin-bottom: 21px;
+}
+.fieldset {
+  @include flexStayle(center, space-between);
+  margin: 0;
+  padding: 0;
+  max-width: 445px;
+  height: 52px;
+  border-radius: 24px;
+  background-color: #fbfcfe;
+}
+.fieldset:hover {
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.hero__input-email {
+  @include textStyle(15px, 18px, #36536b);
+  margin-left: 20px;
+  background-color: #fbfcfe;
+  border: none;
+}
+.hero__text {
+  margin: 0;
+  margin-top: 16px;
+  font-weight: 400;
+}
+.hero__questions {
+  @include textStyle(15px, 18px,  #6c8294);
+}
+.hero__contact {
+  font-weight: 700;
+  @include linkStyle(none, 15px, 18px, #6c8294);
+}
+.hero__img {
+  max-width: 400px;
+  height: 600px;
+  margin-right: 40px;
+}
