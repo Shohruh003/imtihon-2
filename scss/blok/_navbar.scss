@@ -1,0 +1,19 @@
+.nav__list {
+  @include flexStayle(center, space-between);
+  @include listStyle(0px, 0px, none);
+  margin-left: 24px;
+}
+.nav__item {
+  margin-left: 40px;
+}
+.nav__link {
+  @include linkStyle(none, 15px, 18px, rgba(54, 83, 107,0.7));
+}
+.nav__link:hover {
+  color: #4f7899;
+  border-bottom: 2px solid #4f7899;
+}
+.nav__link:active {
+  color:  #36536b;
+  border: none;
+}
