@@ -1,0 +1,13 @@
+.footer {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-image: url("../../img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__wrapper {
+  @include flexStayle(center, space-between);
+}
+.footer__inner {
+  @include flexStayle(center, space-between);
+}

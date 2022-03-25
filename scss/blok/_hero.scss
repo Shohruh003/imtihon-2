@@ -14,7 +14,7 @@
   margin: 0;
   margin-bottom: 21px;
 }
-.fieldset {
+.form__fieldset {
   @include flexStayle(center, space-between);
   margin: 0;
   padding: 0;
@@ -24,10 +24,10 @@
   background-color: #fbfcfe;
   border: none;
 }
-.fieldset:hover {
+.form__fieldset:hover {
   box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
 }
-.hero__input-email {
+.form__input-email {
   @include textStyle(15px, 18px, #36536b);
   margin-left: 20px;
   background-color: #fbfcfe;

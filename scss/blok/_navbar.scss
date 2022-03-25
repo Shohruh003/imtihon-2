@@ -77,3 +77,50 @@
   @include textStyle(15px, 25px, #6C8294);
   margin: 0;
 }
+.footerList {
+  @include flexStayle(center, space-between);
+  @include listStyle(0px, 0px, none);
+  margin-left: 24px;
+}
+.footerList__item {
+  margin-left: 40px;
+}
+.footerList__link {
+  @include linkStyle(none, 15px, 18px,rgba(251, 252, 254, 0.7));
+}
+.footerList__link:hover {
+  color: #e3e5e7b3;
+  border-bottom: 2px solid  #e3e5e7b3;
+}
+.footerList__link:active {
+  color: #fbfcfe;
+  border: none;
+}
+.networkList {
+  @include flexStayle(center, space-between);
+  @include listStyle(0px, 0px, none);
+}
+.networkList__item {
+  margin-left: 24px;
+}
+.networkList__link {
+  display: inline-block;
+}
+.facebook:hover path {
+  fill: #f7acc9;
+}
+.linkedin:hover path {
+  fill: #f7acc9;
+}
+.twitter:hover path {
+  fill: #f7acc9;
+}
+.facebook:active path {
+  fill: #da6d97;
+}
+.linkedin:active path {
+  fill: #da6d97;
+}
+.twitter:active path {
+  fill: #da6d97;
+}
