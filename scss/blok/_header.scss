@@ -19,6 +19,16 @@
   border: none;
   cursor: pointer;
 }
+.header__hamburger {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+.header__hamburger-img {
+  display: block;
+  width: 28px;
+  height: 17px;
+}
 .header__btn:hover {
   background-color: #cc4a7c;
   box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);

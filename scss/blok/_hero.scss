@@ -33,6 +33,27 @@
   background-color: #fbfcfe;
   border: none;
 }
+.hero__btn {
+  padding-top: 15px;
+  padding-right: 26px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  color: #fbfcfe;
+  background: #ba4270;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+.hero__btn:hover {
+  background-color: #cc4a7c;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.hero__btn:active {
+  background-color:  #da6d97;
+}
+.hero__button {
+  display: none;
+}
 .hero__text {
   margin: 0;
   margin-top: 16px;

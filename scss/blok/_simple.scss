@@ -23,6 +23,9 @@
   margin: 0;
   @include textStyle(15px, 28px, #36536b);
 }
+.simple__imgPhone {
+  @include flexStayle(center, space-between);
+}
 .simple__img {
   width: fit-content;
 }
