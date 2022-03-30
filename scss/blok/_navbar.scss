@@ -124,3 +124,36 @@
 .twitter:active path {
   fill: #da6d97;
 }
+
+.pricingList {
+  @include flexStayle(center, space-between);
+  @include listStyle(0px, 0px, none);
+}
+.pricingList__item {
+  width: 340px;
+}
+.pricingList__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 16px;
+  @include textStyle(32px, 40px, #ba4270);
+}
+.pricingList__text {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 8px;
+  @include textStyle(15px, 28px,  #6c8294);
+}
+.pricingList__price {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin-bottom: 24px;
+  @include textStyle(56px, 72px,  #36536b);
+}
+.pricingList__line {
+  height: 1px;
+  color: rgba(54, 83, 107,0.25);
+  margin-bottom: 24px;
+}

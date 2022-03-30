@@ -1,0 +1,40 @@
+.pricing {
+  margin-top: 90px;
+}
+.pricing__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 72px;
+  @include textStyle(56px, 56px, #36536b);
+}
+.form__label {
+  display: block;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  @include textStyle(16px, 28px, rgba(54, 83, 107,0.25));
+}
+.form__input {
+  margin: 0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.pricing__btn {
+  padding-top: 15px;
+  padding-right: 28px;
+  padding-bottom: 15px;
+  padding-left: 28px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+  @include textStyle(15px, 18px, #36536b);
+  border: 1px solid #36536b;
+  border-radius: 24px;
+}
+.pricing__btn:hover {
+  color: #FBFCFE;
+  background-color: #3f5e77;
+}
+.pricing__btn:active {
+  color: #FBFCFE;
+  background-color: #36536b;
+}
