@@ -1,0 +1,22 @@
+.contact {
+  margin-top: 96px;
+}
+.contact__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  width: 730px;
+  margin: 0;
+  margin-bottom: 30px;
+  @include textStyle(56px, 56px,  #36536b);
+}
+.contact__form {
+  @include flexStayle(center, space-between)
+}
+.contact__little-heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  width: 445px;
+  margin: 0;
+  margin-bottom: 45px;
+  @include textStyle(24px, 32px,  rgba(54, 83, 107,0.75));
+}

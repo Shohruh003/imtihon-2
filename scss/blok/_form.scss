@@ -1,0 +1,54 @@
+.form__input {
+  width: 445px;
+  margin: 0;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+}
+.form__label {
+  width: 445px;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  border: none;
+  border-bottom: 1px solid rgba(54, 83, 107,0.7);
+  background-color: transparent;
+}
+.input-message {
+  padding-bottom: 60px;
+}
+.form__label-checkbox {
+  @include flexStayle(center, start);
+  font-family: "Public Sans", sans-serif;
+  width: 395px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  @include textStyle(15px, 25px, #36536b);
+}
+.form__input-checkbox {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  background-color: rgba(54, 83, 107,0.25);
+}
+.form__btn {
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+  @include textStyle(15px, 18px, #36536b);
+  border: 1px solid #36536b;
+  background-color: transparent;
+  border-radius: 24px;
+}
+.form__btn:hover {
+  color: #FBFCFE;
+  background-color: #3f5e77;
+}
+.form__btn:active {
+  color: #FBFCFE;
+  background-color: #36536b;
+}
