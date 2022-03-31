@@ -733,6 +733,82 @@ body {
   margin-bottom: 24px;
 }
 
+.systemList {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.systemList__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 56px;
+}
+
+.systemList__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  width: 200px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #36536b;
+}
+
+.systemList__text {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 15px;
+  line-height: 28px;
+  color: #36536b;
+  width: 625px;
+}
+
+.scribList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  padding-top: 600px;
+  margin-bottom: 73px;
+}
+
+.scribList__item {
+  width: 350px;
+}
+
+.scribList__name {
+  display: block;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(54, 83, 107, 0.7);
+}
+
+.scribList__amount {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  color: #ba4270;
+}
+
 .hero {
   margin-top: 75px;
 }
@@ -1128,6 +1204,25 @@ body {
 .pricing__btn:active {
   color: #FBFCFE;
   background-color: #36536b;
+}
+
+.system {
+  margin-top: 96px;
+  background-image: url(../../img/system-bg.png), url(../../img/system-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: top 550px center, center left 40px;
+}
+
+.system__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 70px;
+  margin-bottom: 51px;
+  font-size: 56px;
+  line-height: 56px;
+  color: #36536b;
+  width: 670px;
 }
 
 /* home page - site hero  */

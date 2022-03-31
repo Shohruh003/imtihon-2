@@ -157,3 +157,47 @@
   color: rgba(54, 83, 107,0.25);
   margin-bottom: 24px;
 }
+
+.systemList {
+  @include listStyle(0px, 0px, none);
+}
+.systemList__item {
+  @include flexStayle(top , space-around);
+  margin-bottom: 56px;
+}
+.systemList__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  width: 200px;
+  @include textStyle(32px, 40px, #36536b);
+}
+.systemList__text {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  @include textStyle(15px, 28px, #36536b);
+  width: 625px;
+}
+
+.scribList {
+  @include flexStayle(center, space-between);
+  @include listStyle(0px, 0px, none);
+  padding-top: 600px;
+  margin-bottom: 73px;
+}
+.scribList__item {
+  width: 350px;
+}
+.scribList__name {
+  display: block;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  @include textStyle(16px, 28px, rgba(54, 83, 107,0.7));
+}
+
+.scribList__amount {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  @include textStyle(56px, 72px, #ba4270);
+}

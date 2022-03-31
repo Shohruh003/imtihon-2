@@ -1,0 +1,15 @@
+.system {
+  margin-top: 96px;
+  background-image: url(../../img/system-bg.png),url(../../img/system-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: top 550px center, center left 40px;
+}
+.system__heading {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 70px;
+  margin-bottom: 51px;
+  @include textStyle(56px, 56px, #36536b);
+  width: 670px;
+}
